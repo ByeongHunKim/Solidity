@@ -2,6 +2,7 @@
 
 ## remix 와 vsCode 연동
 `$ remixd -s ./ --remix-ide https://remix.ethereum.org`
+- https://remix-project.org/
 
 ### 8월 26일 금요일 2일차
 - https://hunsman.tistory.com/category/Smart%20Contract/Solidity
@@ -20,3 +21,6 @@
 
 ### 8월 31일 수요일 7일차
 - 논리연산자
+
+### 9월 1일 목요일 8일차
+- 상수
