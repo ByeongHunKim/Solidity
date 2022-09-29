@@ -1,0 +1,1 @@
+![캡처](../../%EC%82%AC%EC%A7%84/storage_memory/1.PNG)
