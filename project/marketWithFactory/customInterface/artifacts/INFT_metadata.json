@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "symbol",
+						"type": "string"
+					},
+					{
+						"internalType": "address payable",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"name": "init",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"project/marketWithFactory/customInterface/INFT.sol": "INFT"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"project/marketWithFactory/customInterface/INFT.sol": {
+			"keccak256": "0x05e56051a5734b0a53322571a09fe732ddd4648acb33f4bc585e09e00e1d7e49",
+			"urls": [
+				"bzz-raw://ee80618e06e40ea4043273d97bb3fc369c1daa6dd14b09c0efe6609dc39230c3",
+				"dweb:/ipfs/Qme2XSXe8nS5jiVicgtkyekXSPNmsJrBUoNpodXc1FUVMk"
+			]
+		}
+	},
+	"version": 1
+}
