@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes4",
+						"name": "interfaceId",
+						"type": "bytes4"
+					}
+				],
+				"name": "supportsInterface",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"project/marketWithFactory/interfaces/IERC165.sol": "IERC165"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"project/marketWithFactory/interfaces/IERC165.sol": {
+			"keccak256": "0xae4dae1fb5ea973cd7bafbf1693bd3dfbe9f7f966633e93c05ba1b94e0ac5e75",
+			"urls": [
+				"bzz-raw://569996e633eb6bef1092625eebed258ba0d9e9cb46b7b875f2ecf187d7ac6c05",
+				"dweb:/ipfs/QmU3x9LBCEicbsfHDWYQrK6BWjoZ6f7Vvxwxx43iketwoG"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes4",
+						"name": "interfaceId",
+						"type": "bytes4"
+					}
+				],
+				"name": "supportsInterface",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Implementation of the {IERC165} interface. Contracts that want to implement ERC165 should inherit from this contract and override {supportsInterface} to check for the additional interface id that will be supported. For example: ```solidity function supportsInterface(bytes4 interfaceId) public view virtual override returns (bool) {     return interfaceId == type(MyInterface).interfaceId || super.supportsInterface(interfaceId); } ``` Alternatively, {ERC165Storage} provides an easier to use but more expensive implementation.",
+			"kind": "dev",
+			"methods": {
+				"supportsInterface(bytes4)": {
+					"details": "See {IERC165-supportsInterface}."
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"project/marketWithFactory/interfaces/IERC721Receiver.sol": "ERC165"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"project/marketWithFactory/interfaces/IERC165.sol": {
+			"keccak256": "0xae4dae1fb5ea973cd7bafbf1693bd3dfbe9f7f966633e93c05ba1b94e0ac5e75",
+			"urls": [
+				"bzz-raw://569996e633eb6bef1092625eebed258ba0d9e9cb46b7b875f2ecf187d7ac6c05",
+				"dweb:/ipfs/QmU3x9LBCEicbsfHDWYQrK6BWjoZ6f7Vvxwxx43iketwoG"
+			]
+		},
+		"project/marketWithFactory/interfaces/IERC721Receiver.sol": {
+			"keccak256": "0x847fd3fb0bb6946e86e0da7060f08df5961ec874b4f93de2438b835b92edfd08",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4b85ed4a7ffd8067845fc390c896e4f49f78d4de1be291b76eda465f941e4e0c",
+				"dweb:/ipfs/QmbvCXfbTtEq4C1hpVjHGWCUVC5KdZHTCADWDwLYrYJZ88"
+			]
+		}
+	},
+	"version": 1
+}
