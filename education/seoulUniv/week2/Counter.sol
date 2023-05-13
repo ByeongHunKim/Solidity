@@ -5,6 +5,11 @@ contract Counter {
     uint private value;
     address public owner;
 
+    modifier onlyOwner() {
+        require(msg.sender == owner);
+        _;
+    }
+
     constructor() {
         owner = msg.sender;
     }
@@ -21,14 +26,12 @@ contract Counter {
         emit IncreaseValue(msg.sender, value);
     }
     
-    function resetValue() public returns (bool){
-        require(msg.sender == owner, 'you are not owner');
+    function resetValue() public onlyOwner returns (bool){
         value = 0;
         return true;
     }
 
-    function withdraw() public payable returns(bool) {
-        require(msg.sender == owner, 'you are not owner');
+    function withdraw() public onlyOwner payable returns(bool) {
         uint balance = address(this).balance;
         payable(msg.sender).transfer(balance);
         return true;
